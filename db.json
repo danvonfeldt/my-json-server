@@ -42,5 +42,123 @@
           }
         ]
       }
-    ]
+    ],
+    "plants": [
+        {
+          "plantErpId": "62b362151c38026672c59c70",
+          "producerExternalId": 2568050,
+          "plantType": "Bulk Dump",
+          "plantDescription": "Wrapture",
+          "interstateMilkShipperNumber": "62b362157c4b92f372dcdb80",
+          "streetAddress": "Stockton Street",
+          "city": "Gallina",
+          "state": "PA",
+          "zipCode": 94983,
+          "status": "I",
+          "longitude": null,
+          "latitude": null,
+          "products": [
+            1931055,
+            6830096,
+            3595352,
+            3721647,
+            7845334,
+            9403640
+          ]
+        },
+        {
+          "plantErpId": "62b3621593dcd1a3f218ad34",
+          "producerExternalId": 3720880,
+          "plantType": "Bulk Conv",
+          "plantDescription": "Ronbert",
+          "interstateMilkShipperNumber": "62b362159863a515dd7eeef4",
+          "streetAddress": "Madison Place",
+          "city": "Chamberino",
+          "state": "SD",
+          "zipCode": 92948,
+          "status": "I",
+          "longitude": null,
+          "latitude": null,
+          "products": [
+            8206614,
+            7134317,
+            2172797
+          ]
+        },
+        {
+          "plantErpId": "62b3621544ef6d2d25216545",
+          "producerExternalId": 6529911,
+          "plantType": "Dump",
+          "plantDescription": "Temorak",
+          "interstateMilkShipperNumber": "62b36215d4d7619223ec1958",
+          "streetAddress": "Legion Street",
+          "city": "Soham",
+          "state": "VA",
+          "zipCode": 32643,
+          "status": "A",
+          "longitude": null,
+          "latitude": null,
+          "products": [
+            5253427
+          ]
+        },
+        {
+          "plantErpId": "62b36215568d9d13c0777fe7",
+          "producerExternalId": 243269,
+          "plantType": "Reload",
+          "plantDescription": "Talendula",
+          "interstateMilkShipperNumber": "62b362157d62f3d0a3df3920",
+          "streetAddress": "Ryder Avenue",
+          "city": "Greenwich",
+          "state": "OK",
+          "zipCode": 30625,
+          "status": "A",
+          "longitude": null,
+          "latitude": null,
+          "products": [
+            1813534
+          ]
+        },
+        {
+          "plantErpId": "62b36215099dd3e4b9acf68b",
+          "producerExternalId": 3352792,
+          "plantType": "BK Organic",
+          "plantDescription": "Hairport",
+          "interstateMilkShipperNumber": "62b3621541249c4e267840a3",
+          "streetAddress": "Balfour Place",
+          "city": "Templeton",
+          "state": "AZ",
+          "zipCode": 62009,
+          "status": "I",
+          "longitude": null,
+          "latitude": null,
+          "products": [
+            101375,
+            5477160,
+            7142749
+          ]
+        },
+        {
+          "plantErpId": "62b362158968f4de1cbd0ac9",
+          "producerExternalId": 8155663,
+          "plantType": "Plant",
+          "plantDescription": "Musix",
+          "interstateMilkShipperNumber": "62b36215d6632b7cba5a37e4",
+          "streetAddress": "Kansas Place",
+          "city": "Groton",
+          "state": "FL",
+          "zipCode": 21485,
+          "status": "I",
+          "longitude": null,
+          "latitude": null,
+          "products": [
+            884377,
+            7597571,
+            4098055,
+            9287811,
+            735470,
+            4863027
+          ]
+        }
+      ]
   }
