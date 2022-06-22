@@ -1,2 +1,46 @@
 {
-}
+    "producers": [
+      {
+        "producerErpId": "62b31e90577bfd52330177a2",
+        "producerCroppId": 8740976,
+        "producerExternalId": 1528233,
+        "farmErpId": "62b31e903128038d1fc8f98f",
+        "farmCroppId": 3561041,
+        "patronErpId": "62b31e904b1f6c5a1c217040",
+        "patronCroppId": 1831469,
+        "handlerErpId": "62b31e90836988bbbcf718dd",
+        "btu": 1,
+        "patronName": "Daphne Cardenas",
+        "status": "A",
+        "bulkTanks": [
+          {
+            "tankNumber": 1,
+            "status": "A"
+          }
+        ]
+      },
+      {
+        "producerErpId": "62b31e9074f010716d8e56bc",
+        "producerCroppId": 5975917,
+        "producerExternalId": 5850250,
+        "farmErpId": "62b31e90ae2ae44834715953",
+        "farmCroppId": 6807746,
+        "patronErpId": "62b31e90f2a23dd5810f741b",
+        "patronCroppId": 1062581,
+        "handlerErpId": "62b31e90bac9671598d56d59",
+        "btu": 3,
+        "patronName": "Oconnor Duncan",
+        "status": "A",
+        "bulkTanks": [
+          {
+            "tankNumber": 1,
+            "status": "A"
+          },
+          {
+            "tankNumber": 2,
+            "status": "A"
+          }
+        ]
+      }
+    ]
+  }
