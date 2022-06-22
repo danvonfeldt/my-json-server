@@ -1,164 +1,163 @@
 {
-    "producers": [
+    "plants": [
       {
-        "producerErpId": "62b31e90577bfd52330177a2",
-        "producerCroppId": 8740976,
-        "producerExternalId": 1528233,
-        "farmErpId": "62b31e903128038d1fc8f98f",
-        "farmCroppId": 3561041,
-        "patronErpId": "62b31e904b1f6c5a1c217040",
-        "patronCroppId": 1831469,
-        "handlerErpId": "62b31e90836988bbbcf718dd",
-        "btu": 1,
-        "patronName": "Daphne Cardenas",
+        "plantErpId": "62b3626fc805cb6a4bc0a806",
+        "plantType": "Bulk Dump",
+        "plantDescription": "Spherix",
+        "interstateMilkShipperNumber": "62b3626fe64d2eba04a0aa01",
+        "streetAddress": "Union Avenue",
+        "city": "Glenshaw",
+        "state": "NM",
+        "zipCode": 96312,
         "status": "A",
-        "bulkTanks": [
-          {
-            "tankNumber": 1,
-            "status": "A"
-          }
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          6355277
         ]
       },
       {
-        "producerErpId": "62b31e9074f010716d8e56bc",
-        "producerCroppId": 5975917,
-        "producerExternalId": 5850250,
-        "farmErpId": "62b31e90ae2ae44834715953",
-        "farmCroppId": 6807746,
-        "patronErpId": "62b31e90f2a23dd5810f741b",
-        "patronCroppId": 1062581,
-        "handlerErpId": "62b31e90bac9671598d56d59",
-        "btu": 3,
-        "patronName": "Oconnor Duncan",
+        "plantErpId": "62b3626fe60122fb302aea65",
+        "plantType": "Customer",
+        "plantDescription": "Plexia",
+        "interstateMilkShipperNumber": "62b3626f991fb23bd2721286",
+        "streetAddress": "Maujer Street",
+        "city": "Leeper",
+        "state": "IA",
+        "zipCode": 25876,
+        "status": "I",
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          7770632
+        ]
+      },
+      {
+        "plantErpId": "62b3626f627c9d55e9bb8d02",
+        "plantType": "BK Organic",
+        "plantDescription": "Voratak",
+        "interstateMilkShipperNumber": "62b3626f06786a94a98338f3",
+        "streetAddress": "Tapscott Street",
+        "city": "Otranto",
+        "state": "CO",
+        "zipCode": 90619,
         "status": "A",
-        "bulkTanks": [
-          {
-            "tankNumber": 1,
-            "status": "A"
-          },
-          {
-            "tankNumber": 2,
-            "status": "A"
-          }
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          9112421,
+          4404611,
+          9423859,
+          3964895,
+          1021445,
+          1110748,
+          2151180
+        ]
+      },
+      {
+        "plantErpId": "62b3626f7f418d017e6bdb20",
+        "plantType": "BK Organic",
+        "plantDescription": "Beadzza",
+        "interstateMilkShipperNumber": "62b3626fd5656b5201519754",
+        "streetAddress": "Cropsey Avenue",
+        "city": "Kenwood",
+        "state": "ID",
+        "zipCode": 38727,
+        "status": "A",
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          4559353,
+          9770949,
+          7010208,
+          4788322,
+          9981809,
+          1277487,
+          4274949,
+          61505
+        ]
+      },
+      {
+        "plantErpId": "62b3626fa47508d226f7e36c",
+        "plantType": "RMA",
+        "plantDescription": "Steeltab",
+        "interstateMilkShipperNumber": "62b3626fb4088ac415c104dd",
+        "streetAddress": "Highlawn Avenue",
+        "city": "Summertown",
+        "state": "NY",
+        "zipCode": 90517,
+        "status": "I",
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          9007843,
+          568307,
+          1330189,
+          3282180,
+          1540070,
+          6237625,
+          3268368
+        ]
+      },
+      {
+        "plantErpId": "62b3626fa47b38a1d7408fed",
+        "plantType": "Customer",
+        "plantDescription": "Locazone",
+        "interstateMilkShipperNumber": "62b3626f6fb13a71310741b2",
+        "streetAddress": "Trucklemans Lane",
+        "city": "Gulf",
+        "state": "VA",
+        "zipCode": 27451,
+        "status": "I",
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          9628580,
+          1892155
+        ]
+      },
+      {
+        "plantErpId": "62b3626f0fa9eee20b36fed0",
+        "plantType": "Plant",
+        "plantDescription": "Sequitur",
+        "interstateMilkShipperNumber": "62b3626f5c235e57db659b3c",
+        "streetAddress": "Mermaid Avenue",
+        "city": "Holcombe",
+        "state": "AL",
+        "zipCode": 39397,
+        "status": "A",
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          7420190,
+          4445843,
+          7952140,
+          7914632,
+          2776535,
+          9551005
+        ]
+      },
+      {
+        "plantErpId": "62b3626faf394a43e7cb2696",
+        "plantType": "BK Organic",
+        "plantDescription": "Recognia",
+        "interstateMilkShipperNumber": "62b3626f081b64c971f188f3",
+        "streetAddress": "Menahan Street",
+        "city": "Loyalhanna",
+        "state": "MI",
+        "zipCode": 96384,
+        "status": "A",
+        "longitude": null,
+        "latitude": null,
+        "products": [
+          1309864,
+          3169143,
+          187876,
+          271105,
+          5829645,
+          4269471,
+          6784911
         ]
       }
-    ],
-    "plants": [
-        {
-          "plantErpId": "62b362151c38026672c59c70",
-          "producerExternalId": 2568050,
-          "plantType": "Bulk Dump",
-          "plantDescription": "Wrapture",
-          "interstateMilkShipperNumber": "62b362157c4b92f372dcdb80",
-          "streetAddress": "Stockton Street",
-          "city": "Gallina",
-          "state": "PA",
-          "zipCode": 94983,
-          "status": "I",
-          "longitude": null,
-          "latitude": null,
-          "products": [
-            1931055,
-            6830096,
-            3595352,
-            3721647,
-            7845334,
-            9403640
-          ]
-        },
-        {
-          "plantErpId": "62b3621593dcd1a3f218ad34",
-          "producerExternalId": 3720880,
-          "plantType": "Bulk Conv",
-          "plantDescription": "Ronbert",
-          "interstateMilkShipperNumber": "62b362159863a515dd7eeef4",
-          "streetAddress": "Madison Place",
-          "city": "Chamberino",
-          "state": "SD",
-          "zipCode": 92948,
-          "status": "I",
-          "longitude": null,
-          "latitude": null,
-          "products": [
-            8206614,
-            7134317,
-            2172797
-          ]
-        },
-        {
-          "plantErpId": "62b3621544ef6d2d25216545",
-          "producerExternalId": 6529911,
-          "plantType": "Dump",
-          "plantDescription": "Temorak",
-          "interstateMilkShipperNumber": "62b36215d4d7619223ec1958",
-          "streetAddress": "Legion Street",
-          "city": "Soham",
-          "state": "VA",
-          "zipCode": 32643,
-          "status": "A",
-          "longitude": null,
-          "latitude": null,
-          "products": [
-            5253427
-          ]
-        },
-        {
-          "plantErpId": "62b36215568d9d13c0777fe7",
-          "producerExternalId": 243269,
-          "plantType": "Reload",
-          "plantDescription": "Talendula",
-          "interstateMilkShipperNumber": "62b362157d62f3d0a3df3920",
-          "streetAddress": "Ryder Avenue",
-          "city": "Greenwich",
-          "state": "OK",
-          "zipCode": 30625,
-          "status": "A",
-          "longitude": null,
-          "latitude": null,
-          "products": [
-            1813534
-          ]
-        },
-        {
-          "plantErpId": "62b36215099dd3e4b9acf68b",
-          "producerExternalId": 3352792,
-          "plantType": "BK Organic",
-          "plantDescription": "Hairport",
-          "interstateMilkShipperNumber": "62b3621541249c4e267840a3",
-          "streetAddress": "Balfour Place",
-          "city": "Templeton",
-          "state": "AZ",
-          "zipCode": 62009,
-          "status": "I",
-          "longitude": null,
-          "latitude": null,
-          "products": [
-            101375,
-            5477160,
-            7142749
-          ]
-        },
-        {
-          "plantErpId": "62b362158968f4de1cbd0ac9",
-          "producerExternalId": 8155663,
-          "plantType": "Plant",
-          "plantDescription": "Musix",
-          "interstateMilkShipperNumber": "62b36215d6632b7cba5a37e4",
-          "streetAddress": "Kansas Place",
-          "city": "Groton",
-          "state": "FL",
-          "zipCode": 21485,
-          "status": "I",
-          "longitude": null,
-          "latitude": null,
-          "products": [
-            884377,
-            7597571,
-            4098055,
-            9287811,
-            735470,
-            4863027
-          ]
-        }
-      ]
+    ]
   }
