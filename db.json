@@ -1,10 +1,10 @@
 {
     "plants": [
       {
-        "plantErpId": "62b3626fc805cb6a4bc0a806",
+        "plantErpId": 9000,
         "plantType": "Bulk Dump",
-        "plantDescription": "Spherix",
-        "interstateMilkShipperNumber": "62b3626fe64d2eba04a0aa01",
+        "plantDescription": "Dumped Bulk Milk MW",
+        "interstateMilkShipperNumber": null,
         "streetAddress": "Union Avenue",
         "city": "Glenshaw",
         "state": "NM",
@@ -13,151 +13,590 @@
         "longitude": null,
         "latitude": null,
         "products": [
-          6355277
-        ]
+          1000
+        ],
+        "storageLocations": [
+          {
+            "storageLocationErpId": 1000,
+            "storageLocationDescription": "Random Pit #1",
+            "streetAddress": "123 Farm RD",
+            "city": "Chaseburg",
+            "state": "Wi",
+            "zipCode": 54621
+          },
+          {
+            "storageLocationErpId": 1000,
+            "storageLocationDescription": "Random Pit #2",
+            "streetAddress": "456 Farm RD",
+            "city": "Coon Valley",
+            "state": "Wi",
+            "zipCode": 54623
+          }
+        ],
+        "customerLocations": null
       },
       {
-        "plantErpId": "62b3626fe60122fb302aea65",
+        "plantErpId": 2000,
         "plantType": "Customer",
-        "plantDescription": "Plexia",
-        "interstateMilkShipperNumber": "62b3626f991fb23bd2721286",
-        "streetAddress": "Maujer Street",
-        "city": "Leeper",
-        "state": "IA",
-        "zipCode": 25876,
-        "status": "I",
-        "longitude": null,
-        "latitude": null,
-        "products": [
-          7770632
-        ]
-      },
-      {
-        "plantErpId": "62b3626f627c9d55e9bb8d02",
-        "plantType": "BK Organic",
-        "plantDescription": "Voratak",
-        "interstateMilkShipperNumber": "62b3626f06786a94a98338f3",
-        "streetAddress": "Tapscott Street",
-        "city": "Otranto",
-        "state": "CO",
-        "zipCode": 90619,
+        "plantDescription": "Southeast",
+        "interstateMilkShipperNumber": null,
+        "streetAddress": null,
+        "city": null,
+        "state": null,
+        "zipCode": null,
         "status": "A",
         "longitude": null,
         "latitude": null,
         "products": [
-          9112421,
-          4404611,
-          9423859,
-          3964895,
-          1021445,
-          1110748,
-          2151180
+          1000
+        ],
+        "storageLocations": null,
+        "customerLocations": [
+          {
+            "customerLocationErpId": 1000,
+            "customerLocationDescription": "Publix",
+            "streetAddress": "445 Hurricane Trial",
+            "city": "Dacula",
+            "state": "GA",
+            "zipCode": 30019
+          },
+          {
+            "customerLocationErpId": 1001,
+            "customerLocationDescription": "Another Customer Location",
+            "streetAddress": "987 Southeast Rd",
+            "city": "Nashville",
+            "state": "TN",
+            "zipCode": 12345
+          }
         ]
       },
       {
-        "plantErpId": "62b3626f7f418d017e6bdb20",
-        "plantType": "BK Organic",
-        "plantDescription": "Beadzza",
-        "interstateMilkShipperNumber": "62b3626fd5656b5201519754",
-        "streetAddress": "Cropsey Avenue",
-        "city": "Kenwood",
-        "state": "ID",
-        "zipCode": 38727,
-        "status": "A",
-        "longitude": null,
-        "latitude": null,
-        "products": [
-          4559353,
-          9770949,
-          7010208,
-          4788322,
-          9981809,
-          1277487,
-          4274949,
-          61505
-        ]
-      },
-      {
-        "plantErpId": "62b3626fa47508d226f7e36c",
-        "plantType": "RMA",
-        "plantDescription": "Steeltab",
-        "interstateMilkShipperNumber": "62b3626fb4088ac415c104dd",
-        "streetAddress": "Highlawn Avenue",
-        "city": "Summertown",
-        "state": "NY",
-        "zipCode": 90517,
-        "status": "I",
-        "longitude": null,
-        "latitude": null,
-        "products": [
-          9007843,
-          568307,
-          1330189,
-          3282180,
-          1540070,
-          6237625,
-          3268368
-        ]
-      },
-      {
-        "plantErpId": "62b3626fa47b38a1d7408fed",
-        "plantType": "Customer",
-        "plantDescription": "Locazone",
-        "interstateMilkShipperNumber": "62b3626f6fb13a71310741b2",
-        "streetAddress": "Trucklemans Lane",
-        "city": "Gulf",
-        "state": "VA",
-        "zipCode": 27451,
-        "status": "I",
-        "longitude": null,
-        "latitude": null,
-        "products": [
-          9628580,
-          1892155
-        ]
-      },
-      {
-        "plantErpId": "62b3626f0fa9eee20b36fed0",
+        "plantErpId": "1000",
         "plantType": "Plant",
-        "plantDescription": "Sequitur",
-        "interstateMilkShipperNumber": "62b3626f5c235e57db659b3c",
-        "streetAddress": "Mermaid Avenue",
-        "city": "Holcombe",
-        "state": "AL",
-        "zipCode": 39397,
+        "plantDescription": "Chaseburg Creamery",
+        "interstateMilkShipperNumber": "55-075",
+        "streetAddress": "203 S Main St",
+        "city": "Chaseburg",
+        "state": "WI",
+        "zipCode": 54621,
         "status": "A",
         "longitude": null,
         "latitude": null,
         "products": [
-          7420190,
-          4445843,
-          7952140,
-          7914632,
-          2776535,
-          9551005
-        ]
+          1000,1001,1002
+        ],
+        "storageLocations": null,
+        "customerLocations": null
+      }
+    ],
+    "pumpLocations":[
+      {
+        "pumpLocationErpId": "assignedBySAP",
+        "externalPumpLocationId": "NULL",
+        "status": "A",
+        "pumpLocationDescription": "TROPICAL CH RLD- NE NY",
+        "streetAddress": "450 Fayette St",
+        "city": "Perth Amboy",
+        "state": "NY",
+        "zipCode": "08861",
+        "latitude": "NULL",
+        "longitude": "NULL"
       },
       {
-        "plantErpId": "62b3626faf394a43e7cb2696",
-        "plantType": "BK Organic",
-        "plantDescription": "Recognia",
-        "interstateMilkShipperNumber": "62b3626f081b64c971f188f3",
-        "streetAddress": "Menahan Street",
-        "city": "Loyalhanna",
-        "state": "MI",
-        "zipCode": 96384,
+        "pumpLocationErpId": "assignedBySAP",
+        "externalPumpLocationId": "NULL",
         "status": "A",
-        "longitude": null,
-        "latitude": null,
-        "products": [
-          1309864,
-          3169143,
-          187876,
-          271105,
-          5829645,
-          4269471,
-          6784911
-        ]
+        "pumpLocationDescription": "State of Maine Reload-NE",
+        "streetAddress": "461 Commercial St",
+        "city": "Rockport",
+        "state": "ME",
+        "zipCode": "04856",
+        "latitude": "NULL",
+        "longitude": "NULL"
+      },
+      {
+        "pumpLocationErpId": "assignedBySAP",
+        "externalPumpLocationId": "NULL",
+        "status": "A",
+        "pumpLocationDescription": "Golden Age RLD-NE  NY",
+        "streetAddress": "1577 Mill St",
+        "city": "Woodhull",
+        "state": "NY",
+        "zipCode": 14898,
+        "latitude": "NULL",
+        "longitude": "NULL"
+      },
+      {
+        "pumpLocationErpId": "assignedBySAP",
+        "externalPumpLocationId": "NULL",
+        "status": "A",
+        "pumpLocationDescription": "Reload ME-STONY IN/OH/MI",
+        "streetAddress": "10 Burton Dr",
+        "city": "Londonderry",
+        "state": "NH",
+        "zipCode": "03053",
+        "latitude": "NULL",
+        "longitude": "NULL"
+      },
+      {
+        "pumpLocationErpId": "assignedBySAP",
+        "externalPumpLocationId": "NULL",
+        "status": "A",
+        "pumpLocationDescription": "GORDON MILK-OH",
+        "streetAddress": "4029 Winklepleck Rd NW",
+        "city": "Sugarcreek",
+        "state": "OH",
+        "zipCode": 44681,
+        "latitude": "NULL",
+        "longitude": "NULL"
+      },
+      {
+        "pumpLocationErpId": "assignedBySAP",
+        "externalPumpLocationId": "NULL",
+        "status": "A",
+        "pumpLocationDescription": "VALLEY CREST-OR",
+        "streetAddress": "302 2nd St",
+        "city": "Myrtle Point",
+        "state": "OR",
+        "zipCode": 97458,
+        "latitude": "NULL",
+        "longitude": "NULL"
       }
-    ]
+    ],
+    "routePurchaseOrders": [
+      {
+        "purchaseOrderNumber": "OMP0000415286",
+        "pumpTogetherLinkId": "NULL",
+        "loadType": "Conventional Direct",
+        "status": "Planned",
+        "routeId": 496,
+        "routeDescription": "4170 Triple E 3",
+        "region": "Midwest",
+        "destinationErpId": 6009,
+        "destinationDescription": "St Paul Beverage Solutions",
+        "destinationType": "Plant",
+        "pumpLocationErpId": "NULL",
+        "pumpLocationDescription": "NULL",
+        "expectedDeliveryDate": "2022-06-06 18:00:03.000",
+        "expectedDeliveryWeight": 48500,
+        "productErpId": 850001,
+        "productDescription": "Milk Bulk Farm Direct"
+      },
+      {
+        "purchaseOrderNumber": "OMP0000424618",
+        "pumpTogetherLinkId": "NULL",
+        "loadType": "Direct",
+        "status": "Planned",
+        "routeId": 426,
+        "routeDescription": "4318 NEUBAUER_Val1",
+        "region": "Midwest",
+        "destinationErpId": 6620,
+        "destinationDescription": "Cust - Aurora Dairy Columbia",
+        "destinationType": "Customer",
+        "pumpLocationErpId": "NULL",
+        "pumpLocationDescription": "NULL",
+        "expectedDeliveryDate": "2022-07-01 18:00:03.000",
+        "expectedDeliveryWeight": 41500,
+        "productErpId": 850156,
+        "productDescription": "Milk Bulk Farm Direct Validus"
+      },
+      {
+        "purchaseOrderNumber": "6124-83",
+        "pumpTogetherLinkId": "NULL",
+        "loadType": "Pump Over",
+        "status": "Planned",
+        "routeId": 482,
+        "routeDescription": "4322 GARMAN2",
+        "region": "Midwest",
+        "destinationErpId": 6124,
+        "destinationDescription": "Dumped Bulk Milk MW",
+        "destinationType": "Bulk Dump",
+        "pumpLocationErpId": 6282,
+        "pumpLocationDescription": "Reload MW-Steger Dyersville",
+        "expectedDeliveryDate": "2022-06-06 00:00:00.000",
+        "expectedDeliveryWeight": 49000,
+        "productErpId": 850001,
+        "productDescription": "Milk Bulk Farm Direct"
+      },
+      {
+        "purchaseOrderNumber": "OMP0000422503",
+        "pumpTogetherLinkId": "NULL",
+        "loadType": "Pump Over",
+        "status": "Planned",
+        "routeId": 354,
+        "routeDescription": "4293 CroppVal2",
+        "region": "Midwest",
+        "destinationErpId": 6620,
+        "destinationDescription": "Cust - Aurora Dairy Columbia",
+        "destinationType": "Customer",
+        "pumpLocationErpId": 6282,
+        "pumpLocationDescription": "Reload MW-Steger Dyersville",
+        "expectedDeliveryDate": "2022-06-25 18:30:01.000",
+        "expectedDeliveryWeight": 48000,
+        "productErpId": 850156,
+        "productDescription": "Milk Bulk Farm Direct Validus"
+      },
+      {
+        "purchaseOrderNumber": "OMP0000420368",
+        "pumpTogetherLinkId": "OMP0000420368_OMP0000420369",
+        "loadType": "Pump Together",
+        "status": "Planned",
+        "routeId": 528,
+        "routeDescription": "4319 1TRIPLEB",
+        "region": "Midwest",
+        "destinationErpId": 6482,
+        "destinationDescription": "Saputo Black Creek",
+        "destinationType": "Plant",
+        "pumpLocationErpId": 6502,
+        "pumpLocationDescription": "Reload MW - WD Trenton",
+        "expectedDeliveryDate": "2022-06-18 07:00:00.000",
+        "expectedDeliveryWeight": 33000,
+        "productErpId": 850001,
+        "productDescription": "Milk Bulk Farm Direct"
+      },
+      {
+        "purchaseOrderNumber": "OMP0000424921",
+        "pumpTogetherLinkId": "OMP0000424921_OMP0000424924",
+        "loadType": "Pump Together",
+        "status": "Planned",
+        "routeId": 190,
+        "routeDescription": "4173 Rockin T 1",
+        "region": "Midwest",
+        "destinationErpId": 6002,
+        "destinationDescription": "Chaseburg Creamery",
+        "destinationType": "Plant",
+        "pumpLocationErpId": 6502,
+        "pumpLocationDescription": "Reload MW - WD Trenton",
+        "expectedDeliveryDate": "2022-06-29 19:00:03.000",
+        "expectedDeliveryWeight": 30500,
+        "productErpId": 850001,
+        "productDescription": "Milk Bulk Farm Direct"
+      }
+    ],
+
+      "producers": [
+        {
+          "producerErpId": "62b31e90577bfd52330177a2",
+          "producerCroppId": 8740976,
+          "producerExternalId": 1528233,
+          "producerName": "Bill",
+          "farmErpId": "62b31e903128038d1fc8f98f",
+          "farmCroppId": 3561041,
+          "farmName": "Farm Name",
+          "patronErpId": "62b31e904b1f6c5a1c217040",
+          "patronCroppId": 1831469,
+          "patronName": "Daphne Cardenas",
+          "handlerErpId": "62b31e90836988bbbcf718dd",
+          "btu": 1,
+          "status": "A",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "62b31e9074f010716d8e56bc",
+          "producerCroppId": 5975917,
+          "producerExternalId": 5850250,
+          "farmErpId": "62b31e90ae2ae44834715953",
+          "farmCroppId": 6807746,
+          "patronErpId": "62b31e90f2a23dd5810f741b",
+          "patronCroppId": 1062581,
+          "handlerErpId": "62b31e90bac9671598d56d59",
+          "btu": 3,
+          "patronName": "Oconnor Duncan",
+          "status": "A",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            },
+            {
+              "tankNumber": 2,
+              "status": "A"
+            }
+          ]
+        }
+      ],
+      "producers": [
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 1452,
+          "producerName": "STOLTZFUS JOHN F. AND NAOMI K.",
+          "producerExternalId": "NULL",
+          "producerBtu": 558,
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "A",
+          "patronErpId": "assigned",
+          "patronCroppId": 90446,
+          "patronName": "Stoltzfus, John F. or Naomi K.",
+          "farmErpId": "assigned",
+          "farmCroppId": 10212,
+          "farmName": "Stoltzfus, John F. or Naomi K.",
+          "farmAddress": "58 Earl Ln",
+          "farmCity": "Mill Hall",
+          "farmState": "PA",
+          "farmPostalCode": 17751,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            },
+            {
+              "tankNumber": 2,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 1558,
+          "producerName": "STOLTZFUS, JOHN F OR NAOMI #2",
+          "producerExternalId": "NULL",
+          "producerBtu": 558,
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "A",
+          "patronErpId": "assigned",
+          "patronCroppId": 90446,
+          "patronName": "Stoltzfus, John F. or Naomi K.",
+          "farmErpId": "assigned",
+          "farmCroppId": 10812,
+          "farmName": "Stoltzfus, John F. or Naomi K. Farm 2",
+          "farmAddress": "125 McHenry Ln",
+          "farmCity": "Mill Hall",
+          "farmState": "PA",
+          "farmPostalCode": 17751,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 4315,
+          "producerName": "THELL ROBERT OR SHARON",
+          "producerExternalId": "NULL",
+          "producerBtu": "0156",
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "I",
+          "patronErpId": "assigned",
+          "patronCroppId": 90457,
+          "patronName": "Thell, Robert & Sharon",
+          "farmErpId": "assigned",
+          "farmCroppId": 10719,
+          "farmName": "Thell, Robert & Sharon",
+          "farmAddress": "44639 220th Ave",
+          "farmCity": "Freeport",
+          "farmState": "MN",
+          "farmPostalCode": 56331,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 1102,
+          "producerName": "THULL KEVIN",
+          "producerExternalId": "NULL",
+          "producerBtu": "9011S",
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "I",
+          "patronErpId": "assigned",
+          "patronCroppId": 90462,
+          "patronName": "Thull, Kevin",
+          "farmErpId": "assigned",
+          "farmCroppId": 10490,
+          "farmName": "Thull, Kevin",
+          "farmAddress": "2342 Highway 28",
+          "farmCity": "Kewaskum",
+          "farmState": "WI",
+          "farmPostalCode": 53040,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 4902,
+          "producerName": "TRANEL, THOMAS H. AND/OR LINDA",
+          "producerExternalId": "NULL",
+          "producerBtu": "9011W",
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "A",
+          "patronErpId": "assigned",
+          "patronCroppId": 90465,
+          "patronName": "Tranel, Thomas H. and/or Linda L.",
+          "farmErpId": "assigned",
+          "farmCroppId": 10561,
+          "farmName": "Tranel, Thomas H and/or Linda L and Daniel and Kurt and Linda and Aaron",
+          "farmAddress": "1741 County Road Z",
+          "farmCity": "Cuba City",
+          "farmState": "WI",
+          "farmPostalCode": 53807,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 5045,
+          "producerName": "VARNEY GREGG W",
+          "producerExternalId": "NULL",
+          "producerBtu": "005",
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "A",
+          "patronErpId": "assigned",
+          "patronCroppId": 90477,
+          "patronName": "Varney, Gregg & Gloria",
+          "farmErpId": "assigned",
+          "farmCroppId": 10092,
+          "farmName": "Varney, Gregg & Gloria",
+          "farmAddress": "284 Turner Ctr Rd",
+          "farmCity": "Turner",
+          "farmState": "ME",
+          "farmPostalCode": "04282",
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 5045,
+          "producerName": "VARNEY GREGG W",
+          "producerExternalId": "NULL",
+          "producerBtu": "005",
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "A",
+          "patronErpId": "assigned",
+          "patronCroppId": 90477,
+          "patronName": "Varney, Gregg & Gloria",
+          "farmErpId": "assigned",
+          "farmCroppId": 10092,
+          "farmName": "Varney, Gregg & Gloria",
+          "farmAddress": "284 Turner Ctr Rd",
+          "farmCity": "Turner",
+          "farmState": "ME",
+          "farmPostalCode": "04282",
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 1033,
+          "producerName": "WATERS JAMES M",
+          "producerExternalId": "NULL",
+          "producerBtu": "9011C",
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "A",
+          "patronErpId": "assigned",
+          "patronCroppId": 90487,
+          "patronName": "Waters, James M.",
+          "farmErpId": "assigned",
+          "farmCroppId": 10479,
+          "farmName": "Waters, James M.",
+          "farmAddress": "W761 County Rd E",
+          "farmCity": "Arcadia",
+          "farmState": "WI",
+          "farmPostalCode": 54612,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 1021,
+          "producerName": "WELLNER CHARLES L OR BARBARA A",
+          "producerExternalId": "NULL",
+          "producerBtu": "9011T",
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "A",
+          "patronErpId": "assigned",
+          "patronCroppId": 90491,
+          "patronName": "Wellner, Charles & Barbara",
+          "farmErpId": "assigned",
+          "farmCroppId": 10427,
+          "farmName": "Wellner, Charles & Barbara",
+          "farmAddress": "3058 Holton Rd",
+          "farmCity": "Abbotsford",
+          "farmState": "WI",
+          "farmPostalCode": 54405,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        },
+        {
+          "producerErpId": "assigned",
+          "producerCroppId": 991,
+          "producerName": "WESTABY DELMAR OR THERESA",
+          "producerExternalId": "NULL",
+          "producerBtu": 2121,
+          "producerHandlerErpId": "assigned",
+          "producerStatus": "I",
+          "patronErpId": "assigned",
+          "patronCroppId": 90496,
+          "patronName": "Westaby, Delmar & Theresa",
+          "farmErpId": "assigned",
+          "farmCroppId": 10066,
+          "farmName": "Westaby, Delmar & Theresa",
+          "farmAddress": "1186 N Union Rd",
+          "farmCity": "Stockton",
+          "farmState": "IL",
+          "farmPostalCode": 61085,
+          "farmLongitude": "NULL",
+          "farmLatitude": "NULL",
+          "bulkTanks": [
+            {
+              "tankNumber": 1,
+              "status": "A"
+            }
+          ]
+        }
+      ]
+    
   }
+
+  
